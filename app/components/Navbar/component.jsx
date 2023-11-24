@@ -12,7 +12,7 @@ export default function Navbar () {
                 quality={100}
                 placeholder="blur"
             />
-            <h1>The Helpdesk</h1>
+            <h1>Helpdesk</h1>
             <Link href='/'>Home</Link>
             <Link href='/tickets'>Tickets</Link>
         </nav>
