@@ -1,6 +1,9 @@
 import Link from "next/link";
 
 async function getTickets() {
+
+    await new Promise(resolve => setTimeout(resolve, 3000)) // delete after test
+
     const response = await fetch('http://localhost:4000/tickets');
 
     return response.json()
