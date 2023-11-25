@@ -13,7 +13,7 @@ export default function Navbar () {
                 placeholder="blur"
             />
             <h1>Helpdesk</h1>
-            <Link href='/'>Home</Link>
+            <Link href='/'>Dashboard</Link>
             <Link href='/tickets'>Tickets</Link>
         </nav>
     )
